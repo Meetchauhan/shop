@@ -51,7 +51,7 @@ export default function ProductItem(props) {
                 &#8377; {(props.price * 81).toLocaleString("en-IN")}
               </h3>
               <div className={classe.btnWrapper}>
-                <Link className={classe.viewProduct} to={`/${props.id}`}>
+                <Link className={classe.viewProduct} to={`/shop/${props.id}`}>
                   View Product
                 </Link>
                 <div className={classe.fav} onClick={handleFavorite}>
