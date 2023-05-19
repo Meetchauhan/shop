@@ -1,0 +1,61 @@
+header.header {
+  box-shadow: 0px 2px 2px #e0dddf7a;
+  background-color: white;
+  transition: all 0.5s;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+ul.menu-wrapper {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 -20px;
+}
+ul.menu-wrapper li {
+  padding: 0 20px;
+  font-size: 20px;
+  font-family: "Source Sans Pro";
+}
+ul.menu-wrapper li a {
+  text-decoration: none;
+}
+img.logo {
+  width: 50px;
+}
+header.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  animation: slideDown 0.3s ease-out;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+img.fav-icon{
+width: 30px;
+}
+img.cart-icon{
+width: 30px;
+}
+
+
+@media(max-width:575px){
+    ul.menu-wrapper{
+        padding-right: 20px;
+    }
+    sup{
+        position: absolute;
+        top: 22px;
+    }
+}

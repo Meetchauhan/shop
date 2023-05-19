@@ -1,0 +1,48 @@
+.checkout {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  /* border-top: 1px solid black; */
+  margin-top: 20px;
+  padding: 20px 0 0;
+  float: right;
+}
+h1.heading{
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+.totalPrice{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+@media(max-width:991px){
+    .checkout{
+        margin-top: 40px;
+    }
+}
+@media(max-width:767px){
+    .checkout{
+        width: 50%;
+    }
+}
+@media(max-width:575px){
+    .checkout{
+        width: 100%;
+    }
+}

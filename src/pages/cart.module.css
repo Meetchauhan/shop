@@ -1,0 +1,16 @@
+.cartFlex {
+  margin: 40px 0 0;
+}
+.cartInner {
+  width: 100%;
+}
+@media (max-width: 1199px) {
+  .cartFlex {
+    margin: 20px 0 0;
+  }
+}
+@media (max-width: 991px) {
+  .cartInner {
+    width: 100%;
+  }
+}

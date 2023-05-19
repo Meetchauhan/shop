@@ -1,0 +1,26 @@
+select#category {
+  width: 35%;
+  height: 40px;
+  display: flex;
+  margin: 20px 0 20px auto;
+  text-transform: capitalize;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+@media (max-width: 1199px) {
+  select#category {
+    width: 40%;
+  }
+}
+@media (max-width: 991px) {
+  select#category {
+    width: 48%;
+  }
+}
+@media (max-width: 767px) {
+  select#category {
+    width: 100%;
+  }
+}
