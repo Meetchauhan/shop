@@ -37,7 +37,7 @@ function CartItem(props) {
   return (
     <div className={classes.cart}>
       <div className={classes.cartInner}>
-        <Link to={`/${props.id}`}>
+        <Link to={`/shop/${props.id}`}>
           {props.image ? (
             <img
               className={classes.image}
