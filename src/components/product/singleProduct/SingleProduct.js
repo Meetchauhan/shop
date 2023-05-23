@@ -45,7 +45,7 @@ export default function SingeProduct(props) {
       dispatch(addFavorite(props));
     }
   }
-  console.log(itemInCart);
+  // console.log(itemInCart);
 
   return (
     <div className={classe.itemWrapper} id={props.id} stock={props.stock}>

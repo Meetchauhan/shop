@@ -20,69 +20,70 @@ h2.title {
   font-size: 40px;
   margin: 0 0 20px;
 }
-p.description{
-    font-family: "Source Sans Pro";
-    font-size: 20px;
-    margin: 0 0 20px;
+p.description {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  margin: 0 0 20px;
 }
-.price{
-    font-family: "Source Sans Pro";
-    font-size: 30px;
+.price {
+  font-family: "Source Sans Pro";
+  font-size: 30px;
 }
-.btnSection{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.btnSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .btn {
-    
-    display: flex;
-    background-color: white;
-    border: 1px solid rgb(136, 131, 131);
-    width: 50%;
-    justify-content: center;
-    padding: 15px 0;
-    font-size: 22px;
-    font-weight: 600;
-    transition: all 0.5s;
-    cursor: pointer;
-    font-family: "Source Sans Pro";
-  }
-  .btn:hover {
-    color: white;
-    background-color: black;
-  }
-  .allProduct{
-    font-family: "Source Sans Pro";
-    font-size: 20px;
-    color: rgb(47, 55, 61);
-    transition: all .5s;
-  }
-  .allProduct:hover{
-    color: rgb(53, 218, 64);
-  }
-.priceAndFavorite{
+  display: flex;
+  background-color: white;
+  border: 1px solid rgb(136, 131, 131);
+  width: 50%;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: 22px;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: "Source Sans Pro";
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+.allProduct {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  color: rgb(47, 55, 61);
+  transition: all 0.5s;
+}
+.allProduct:hover {
+  color: rgb(53, 218, 64);
+}
+.priceAndFavorite {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.fav img{
+.fav img {
   width: 30px;
   cursor: pointer;
 }
 
-  @media(max-width:991px){
-    .itemWrapperInner{
-        flex-direction: column;
-        align-items: inherit;
-    }
-    .contentSec{
-        padding: 0;
-    }
-    .slider{
-        width: 100%;
-    }
-    .imageSec img{
-        height: 400px;
-    }
+@media (max-width: 991px) {
+  .itemWrapperInner {
+    flex-direction: column;
+    align-items: inherit;
+    margin: 40px 0;
   }
+  .contentSec {
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  .slider {
+    width: 100%;
+  }
+  .imageSec img {
+    height: 400px;
+  }
+}

@@ -17,7 +17,7 @@ export default function SingleProduct() {
       .then((data) => {
         setLoading(false);
         setSingleProducts(data);
-        console.log(data);
+        // console.log(data);
       });
   }, [productId]);
 

@@ -17,7 +17,7 @@ export default function ProductItem(props) {
 
   const products = useSelector((state) => state.products);
 
-  console.log(products);
+  // console.log(products);
   function handleFavorite() {
     if (products.favorite.filter((item) => item.id === props.id).length > 0) {
       dispatch(removeFavorite(props));
