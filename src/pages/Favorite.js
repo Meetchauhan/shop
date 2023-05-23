@@ -22,7 +22,7 @@ export default function Favorite() {
         </div>
       ) : (
         <h4>
-          There is no Favorite item <Link to="/">Click Here</Link> to add item
+          There is no Favorite item <Link to="/shop">Click Here</Link> to add item
           in favorite
         </h4>
       )}

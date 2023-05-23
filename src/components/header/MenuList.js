@@ -18,7 +18,7 @@ export default function MenuList() {
   return (
     <ul className="menu-wrapper">
       <li>
-        <Link to={"/favorite"}>
+        <Link to={"/shop/favorite"}>
           {screenWidth > 575 ? (
             "Favorite"
           ) : (
@@ -28,7 +28,7 @@ export default function MenuList() {
         </Link>
       </li>
       <li>
-        <Link to={"/cart"}>
+        <Link to={"/shop/cart"}>
           {screenWidth > 575 ? (
             "Cart"
           ) : (

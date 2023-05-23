@@ -15,10 +15,10 @@ function App() {
         fallback={<Loading />}
       >
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="favorite" element={<Favorite />} />
-          <Route path="cart" element={<Cart />} />
-          <Route path=":productId" element={<SingleProduct />} />
+          <Route path="/shop" exact element={<Home />} />
+          <Route path="/shop/favorite" element={<Favorite />} />
+          <Route path="/shop/cart" element={<Cart />} />
+          <Route path="/shop/:productId" element={<SingleProduct />} />
           <Route />
         </Routes>
       </Suspense>

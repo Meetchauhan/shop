@@ -43,7 +43,7 @@ export default function Cart() {
         </div>
       ) : (
         <h4>
-          Cart is empty <Link to="/">Click here</Link> to add product in cart
+          Cart is empty <Link to="/cart">Click here</Link> to add product in cart
         </h4>
       )}
     </section>
