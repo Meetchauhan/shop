@@ -46,7 +46,16 @@
   color: #304834;
   cursor: pointer;
   background: transparent;
+  transition: all 0.5s;
 }
+.plus:hover {
+  color: green;
+}
+
+.minus:hover {
+  color: red;
+}
+
 .quentityText {
   padding-right: 10px;
 }

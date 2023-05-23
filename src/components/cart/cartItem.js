@@ -65,7 +65,7 @@ function CartItem(props) {
         >
           <img src={remove ? removeRed : notRemoved} alt="removeIcon" />
         </div>
-        <div>{props.stock}</div>
+        {/* <div>{props.stock}</div> */}
 
         {/* {props.handleTotal(count)} */}
       </div>
@@ -75,6 +75,10 @@ function CartItem(props) {
         <button
           onClick={handleCountDecrement}
           className={`${classes.stock} ${classes.minus}`}
+          style={{
+            color: `${count < 2 ? "#beb9b9" : "black"}`,
+            cursor: `${count < 2 ? "auto" : "pointer"}`,
+          }}
         >
           -
         </button>
@@ -85,7 +89,7 @@ function CartItem(props) {
             color: `${props.stock === count ? "#beb9b9" : "black"}`,
             cursor: `${props.stock === count ? "auto" : "pointer"}`,
           }}
-          className={classes.stock}
+          className={`${classes.stock} ${classes.plus}`}
         >
           +
         </button>
@@ -96,10 +100,10 @@ function CartItem(props) {
               margin: "0",
               fontSize: "18px",
               fontWeight: "600",
-              padding:'0 20px 0'
+              padding: "0 20px 0",
             }}
           >
-            Stock is over{" "}
+            {`You can add quantity up to ${props.stock}`}
           </p>
         )}
       </div>

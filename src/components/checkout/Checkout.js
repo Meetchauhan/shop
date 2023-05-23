@@ -28,7 +28,7 @@ function Checkout(props) {
       <button
         className={classes.btn}
         onClick={() => {
-          alert("Thanks for Shopping", history("/", { replace: true }));
+          alert("Thanks for Shopping", history("/shop", { replace: true }));
           props.checkout(handleCheckOut());
         }}
       >

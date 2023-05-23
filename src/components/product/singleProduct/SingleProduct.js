@@ -79,7 +79,7 @@ export default function SingeProduct(props) {
                 ? "Remove Cart"
                 : "Add to Cart"}
             </button>
-            <Link className={classe.allProduct} to="/">
+            <Link className={classe.allProduct} to="/shop">
               All Products
             </Link>
           </div>
